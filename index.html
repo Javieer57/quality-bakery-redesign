@@ -7,6 +7,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="shortcut icon" href="./assets/img/favicon-quality-bakery.png" type="image/x-icon" />
 
+		<!-- Fontawesome -->
+		<script src="https://kit.fontawesome.com/d71fee4e13.js" crossorigin="anonymous"></script>
+
 		<!-- ::: All CSS Files here ::: -->
 		<!-- Vendor CSS Files -->
 		<link rel="stylesheet" href="./assets/dist/css/vendor/normalize.css" />
@@ -14,26 +17,85 @@
 		<!-- Main Style CSS File -->
 		<link rel="stylesheet" href="./assets/dist/css/styles.min.css" />
 
+		<!-- ::: All JS Files here ::: -->
+		<script defer src="./assets/dist/js/main.min.js"></script>
+
 		<title>Pastelería y Panadería Tradicional en México | Quality Bakery</title>
 	</head>
 	<body>
 		<!-- ::: Services ::: -->
-		<div style="display: grid; grid-template-columns: repeat(4, 1fr)">
-			<div class="same-height-columns">
-				<div class="same-height-columns__column">
-					<img src="./assets/img/croissant.png" alt="" />
-					<div class="same-height-columns__content">
-						<h3 class="font-family--secondary">PASTELERÍA</h3>
-						<p>
+
+		<div class="container" style="margin-top: 100px">
+			<div class="section-title text-align-center margin-bottom--xl">
+				<h2 class="uppercase font-family--secondary font-size--lg">nuestros servicios</h2>
+				<img class="title-decoration" src="./assets/img/decoracion.png" alt="" />
+			</div>
+
+			<div class="services-container">
+				<div class="service text-align-center">
+					<div class="service__content margin-bottom--md">
+						<img src="./assets/img/cake.png" alt="pastel dibujado a mano con cerezas encima" />
+						<div class="flex-center margin-bottom--md">
+							<h3 class="font-family--secondary font-size--md">PASTELERÍA</h3>
+						</div>
+						<p class="text">
 							En las pasterías Quality Bakery tenemos mejores pasteles y postres artesanales. ¡No te lo puedes perder!
 						</p>
 					</div>
-					<a href="#">+</a>
+					<a href="#" class="btn btn-outline--grey" aria-label="Ir a catálogo de pasteles">
+						<i class="fa-fw fa-sharp fa-solid fa-plus"></i>
+					</a>
+				</div>
+				<div class="service text-align-center">
+					<div class="service__content margin-bottom--md">
+						<img src="./assets/img/croissant.png" alt="croissant dibujado a mano " />
+						<div class="flex-center margin-bottom--md">
+							<h3 class="font-family--secondary font-size--md">PANADERÍA</h3>
+						</div>
+						<p class="text">
+							Encontra el mejor pan recién horneado, la mayor variedad de panes dulces o simplemente tu pan tradicional
+							de siempre.
+						</p>
+					</div>
+					<a href="#" class="services-container__btn btn btn-outline--grey" aria-label="Ir a catálogo de panadería">
+						<i class="fa-fw fa-sharp fa-solid fa-plus"></i>
+					</a>
+				</div>
+				<div class="service text-align-center">
+					<div class="service__content margin-bottom--md">
+						<img src="./assets/img/party.png" alt="cono de fiesta dibujado a mano" />
+						<div class="flex-center margin-bottom--md">
+							<h3 class="font-family--secondary font-size--md">EVENTOS</h3>
+						</div>
+						<p class="text">
+							Haz que tu gran día se convierta en una deliciosa realidad. Personaliza tus fiestas con la mejor selección
+							de pasteles.
+						</p>
+					</div>
+					<a href="#" class="services-container__btn btn btn-outline--grey" aria-label="Ir a catálogo de servicios">
+						<i class="fa-fw fa-sharp fa-solid fa-plus"></i>
+					</a>
+				</div>
+				<div class="service text-align-center">
+					<div class="service__content margin-bottom--md">
+						<img src="./assets/img/delivery.png" alt="camión de entregas dibujado a mano" />
+						<div class="flex-center margin-bottom--md">
+							<h3 class="font-family--secondary font-size--md">SERVICIO A DOMICILIO</h3>
+						</div>
+						<p class="text">
+							Servicio de entrega a domicilio, negocio o trabajo. Contamos con 7 sucursales distribuidas por toda la
+							ciudad.
+						</p>
+					</div>
+					<a
+						href="#"
+						class="services-container__btn btn btn-outline--grey"
+						aria-label="Ir a detalles de entrega a domicilio"
+					>
+						<i class="fa-fw fa-sharp fa-solid fa-plus"></i>
+					</a>
 				</div>
 			</div>
 		</div>
-
-		<!-- ::: All JS Files here ::: -->
-		<script src="./assets/dist/js/main.min.js"></script>
 	</body>
 </html>

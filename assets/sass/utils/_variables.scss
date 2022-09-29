@@ -13,9 +13,11 @@ $primary-font: 'spartan', sans-serif;
 $secondary-font: 'kelvinch', serif;
 
 // ::: Breakpoints
-// 640px, 1150px, 1400px
+// 640px, 900px
 $breakpoints: (
 	'medium': '40em',
-	'large': '71.875em',
-	'xlarge': '87.5em',
+	'large': '56.25em',
 );
+
+// ::: Others
+$transition: all 0.3s ease;

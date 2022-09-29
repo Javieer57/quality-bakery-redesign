@@ -1,0 +1,20 @@
+@use '../utils/' as *;
+
+.btn {
+	padding: rem(10);
+	display: inline-block;
+}
+
+.btn-outline {
+	&--grey {
+		border: 1px solid var(--grey);
+		transition: $transition;
+
+		&:hover,
+		&:focus-visible {
+			border-color: transparent;
+			color: var(--white);
+			background-color: var(--primary);
+		}
+	}
+}

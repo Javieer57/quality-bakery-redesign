@@ -1,0 +1,11 @@
+-- Pendientes
+¿es importante poner title a las imagenes?
+aria-label de servicios (entrega) [https://www.aditus.io/aria/aria-label/]
+[https://attacomsian.com/blog/javascript-nodelist-vs-array]
+
+Herramientas
+fontawesome
+fuentes
+
+-- Retos
+servicios con títulos del mismo tamaño
