@@ -10,3 +10,27 @@
 	position: absolute;
 	width: 1px;
 }
+
+.font {
+	&--light {
+		font-weight: 300;
+	}
+
+	&--regular {
+		font-weight: 400;
+	}
+
+	&--semi-bold {
+		font-weight: 600;
+	}
+
+	&--bold {
+		font-weight: 700;
+	}
+}
+
+.font-family {
+	&--secondary {
+		font-family: var(--secondary-font);
+	}
+}
