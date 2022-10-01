@@ -1,7 +1,11 @@
 -- Pendientes
+minificar imágenes**
+clases para tamaños de fuente (typography.scss)
+clases de margenes (margen del texto testimonio)
 ¿es importante poner title a las imagenes?
 aria-label de servicios (entrega) [https://www.aditus.io/aria/aria-label/]
 [https://attacomsian.com/blog/javascript-nodelist-vs-array]
+-descargar solo los íconos que se usan de fontawesome para no usar la cdn?
 
 Herramientas
 fontawesome
@@ -9,3 +13,6 @@ fuentes
 
 -- Retos
 servicios con títulos del mismo tamaño
+omitir trabajo extra de filtros exportando la imagen ya editada
+
+- citar testimonios [https://html.spec.whatwg.org/multipage/grouping-content.html#the-blockquote-element]

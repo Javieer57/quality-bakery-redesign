@@ -1,33 +1,8 @@
 @use '../utils/' as *;
 
 .about {
-	display: grid;
-	grid-template-columns: 1fr;
-	gap: rem(50);
-
 	.media img {
 		max-width: rem(400);
-	}
-
-	@include breakpoint('medium') {
-		gap: rem(20);
-		align-items: center;
-		justify-items: center;
-		grid-template-columns: repeat(2, 1fr);
-	}
-}
-
-.services-container {
-	display: grid;
-	grid-template-columns: 1fr;
-	gap: rem(50);
-
-	@include breakpoint('medium') {
-		grid-template-columns: repeat(2, 1fr);
-	}
-
-	@include breakpoint('large') {
-		grid-template-columns: repeat(4, 1fr);
 	}
 }
 
@@ -42,5 +17,19 @@
 
 	&__content {
 		flex: 1;
+	}
+}
+
+.testimonial {
+	background-image: url($img-path + 'bakery.jpg');
+	background-size: cover;
+	padding: rem(40);
+
+	&__img {
+		max-width: rem(40);
+	}
+
+	@include breakpoint('lg') {
+		padding: rem(60);
 	}
 }

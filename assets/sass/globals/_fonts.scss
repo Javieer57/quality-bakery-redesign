@@ -1,29 +1,31 @@
+@use '../utils/' as *;
+
 /*! Kelvinch | SIL Open Font License v1.10 | https://www.fontsquirrel.com/fonts/kelvinch  */
 
 @font-face {
 	font-family: 'kelvinch';
-	src: url('../../fonts/kelvinch/Kelvinch-Roman.otf') format('opentype');
-	font-weight: bold;
+	src: url($fonts-path + 'kelvinch/Kelvinch-Roman.otf') format('opentype');
+	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'kelvinch';
-	src: url('../../fonts/kelvinch/Kelvinch-Italic.otf') format('opentype');
+	src: url($fonts-path + 'kelvinch/Kelvinch-Italic.otf') format('opentype');
+	font-weight: normal;
 	font-style: italic;
-	font-style: normal;
 }
 
 @font-face {
 	font-family: 'kelvinch';
-	src: url('../../fonts/kelvinch/Kelvinch-Bold.otf') format('opentype');
+	src: url($fonts-path + 'kelvinch/Kelvinch-Bold.otf') format('opentype');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'kelvinch';
-	src: url('../../fonts/kelvinch/Kelvinch-BoldItalic.otf') format('opentype');
+	src: url($fonts-path + 'kelvinch/Kelvinch-BoldItalic.otf') format('opentype');
 	font-weight: bold;
 	font-style: italic;
 }
@@ -32,5 +34,14 @@
 
 @font-face {
 	font-family: 'spartan';
-	src: url('../../fonts/league_spartan/LeagueSpartan-VariableFont_wght.ttf') format('truetype');
+	src: url($fonts-path + 'league_spartan/LeagueSpartan-VariableFont_wght.ttf') format('truetype');
+}
+
+/*! Spartan MB | SIL Open Font License v1.10 | https://www.fontsquirrel.com/fonts/spartan-mb */
+
+@font-face {
+	font-family: 'spartan-mb';
+	src: url($fonts-path + 'spartan-mb/SpartanMB-Regular.otf') format('opentype');
+	font-style: normal;
+	font-weight: normal;
 }

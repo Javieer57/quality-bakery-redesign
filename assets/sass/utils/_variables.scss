@@ -1,3 +1,8 @@
+// ::: Config
+$base-url: 'http://localhost:3000/';
+$fonts-path: $base-url + 'assets/fonts/';
+$img-path: $base-url + 'assets/img/';
+
 // ::: Colors
 
 $black: #000;
@@ -9,14 +14,14 @@ $grey: #e5e5e5;
 $brown: #716147;
 
 // ::: Typography
-$primary-font: 'spartan', sans-serif;
+$primary-font: 'spartan-mb', sans-serif;
 $secondary-font: 'kelvinch', serif;
 
 // ::: Breakpoints
 // 640px, 900px
 $breakpoints: (
-	'medium': '40em',
-	'large': '56.25em',
+	'md': '40em',
+	'lg': '56.25em',
 );
 
 // ::: Others

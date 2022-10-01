@@ -1,7 +1,7 @@
 @use 'variables' as *;
 
-@mixin breakpoint($size) {
-	@media (min-width: map-get($breakpoints, $size)) {
+@mixin breakpoint($size, $sizes-map: $breakpoints) {
+	@media (min-width: map-get($sizes-map, $size)) {
 		@content;
 	}
 }

@@ -29,31 +29,21 @@
 	}
 }
 
-.font-family {
-	&--secondary {
-		font-family: var(--secondary-font);
-	}
+.text-white {
+	color: $white;
 }
 
 .text-align-center {
 	text-align: center;
 }
 
-.text {
-	line-height: 28px;
-	letter-spacing: 0.02em;
-}
-
-.font-size {
-	&--md {
-		font-size: rem(24);
-	}
-	&--lg {
-		font-size: rem(40);
-	}
-}
-
 .margin-bottom {
+	&--20 {
+		margin-bottom: rem(20);
+	}
+	&--sm {
+		margin-bottom: rem(10);
+	}
 	&--md {
 		margin-bottom: rem(16);
 	}
@@ -69,6 +59,11 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.grid-centered {
+	align-items: center;
+	justify-items: center;
 }
 
 .uppercase {
