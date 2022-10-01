@@ -6,6 +6,8 @@ clases de margenes (margen del texto testimonio)
 aria-label de servicios (entrega) [https://www.aditus.io/aria/aria-label/]
 [https://attacomsian.com/blog/javascript-nodelist-vs-array]
 -descargar solo los íconos que se usan de fontawesome para no usar la cdn?
+- cohesión en los estilos (altura de línea y espaciado de letra)
+- formato de modificadores
 
 Herramientas
 fontawesome

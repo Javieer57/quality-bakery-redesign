@@ -1,20 +1,36 @@
 @use '../utils/' as *;
 
 .btn {
+	letter-spacing: 0.02em;
 	padding: rem(10);
 	display: inline-block;
+	transition: var(--transition-animation);
+
+	&-padding-md {
+		padding: rem(15) rem(40);
+	}
 }
 
 .btn-outline {
 	&--grey {
-		border: 1px solid var(--grey);
-		transition: $transition;
+		border: var(--grey-border);
 
 		&:hover,
 		&:focus-visible {
-			border-color: transparent;
+			// border-color: transparent;
 			color: var(--white);
 			background-color: var(--primary);
 		}
+	}
+}
+
+.btn-orange {
+	background: var(--primary);
+	color: var(--white);
+	border: none;
+
+	&:hover,
+	&:focus-visible {
+		background-color: var(--accent);
 	}
 }

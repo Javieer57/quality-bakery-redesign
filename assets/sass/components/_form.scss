@@ -1,0 +1,24 @@
+@use '../utils/' as *;
+
+.form-field {
+	// label {
+	// 	display: block;
+	// }
+	&__label {
+		display: block;
+		margin-bottom: rem(10);
+	}
+
+	&__input {
+		line-height: rem(28);
+		letter-spacing: 0.02em;
+		padding: rem(10) rem(20);
+		border: var(--grey-border);
+	}
+
+	textarea {
+		min-height: rem(200);
+		resize: none;
+		overflow: scroll;
+	}
+}

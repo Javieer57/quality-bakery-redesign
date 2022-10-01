@@ -18,6 +18,11 @@ body {
 	color: var(--accent);
 }
 
+a,
+button {
+	cursor: pointer;
+}
+
 a {
 	text-decoration: none;
 	color: inherit;
@@ -28,10 +33,21 @@ img {
 	vertical-align: top;
 }
 
-svg {
-	vertical-align: top;
-}
+// svg {
+// 	vertical-align: top;
+// }
 
 blockquote {
 	font-family: inherit;
+}
+
+input,
+textarea {
+	width: 100%;
+	color: inherit;
+}
+
+p {
+	line-height: rem(28);
+	letter-spacing: 0.02em;
 }

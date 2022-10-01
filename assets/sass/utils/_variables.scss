@@ -20,9 +20,6 @@ $secondary-font: 'kelvinch', serif;
 // ::: Breakpoints
 // 640px, 900px
 $breakpoints: (
-	'md': '40em',
+	'md': '43.75em',
 	'lg': '56.25em',
 );
-
-// ::: Others
-$transition: all 0.3s ease;
