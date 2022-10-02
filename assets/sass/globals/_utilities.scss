@@ -61,6 +61,10 @@
 	}
 }
 
+.margin-right-sm {
+	margin-right: rem(10);
+}
+
 .flex-center {
 	display: flex;
 	align-items: center;
@@ -97,5 +101,16 @@
 .border {
 	&--grey {
 		border: var(--grey-border);
+	}
+}
+
+.bg-dark {
+	background-color: var(--darker-accent);
+	color: var(--white);
+}
+
+.inline-list {
+	> * {
+		display: inline-block;
 	}
 }

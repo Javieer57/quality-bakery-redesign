@@ -47,7 +47,18 @@ textarea {
 	color: inherit;
 }
 
-p {
+p,
+a,
+i {
 	line-height: rem(28);
 	letter-spacing: 0.02em;
+}
+
+address {
+	font-style: normal;
+}
+
+ul,
+ol {
+	list-style-type: none;
 }

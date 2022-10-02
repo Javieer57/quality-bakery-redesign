@@ -1,0 +1,61 @@
+@use '../utils/' as *;
+
+.footer {
+	/* 
+    Evitar el uso del shorthand de 'background' porque sobreescribe el background-color que se agregue con alguna clase utilitaria.
+    Se proriza el uso de la clase utiliaría para el background-color para facilitar su edición.
+  */
+	background-image: url($img-path + 'footer-bg-movil.png');
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-top: rem(80);
+	padding-bottom: rem(80);
+
+	&__wrapper {
+		display: grid;
+		gap: rem(50);
+		grid-template-columns: 1fr;
+		text-align: center;
+		grid-template-areas:
+			'address'
+			'about'
+			'logo';
+	}
+
+	&__address {
+		grid-area: address;
+	}
+
+	&__about {
+		grid-area: about;
+	}
+
+	&__logo {
+		grid-area: logo;
+		text-align: center;
+		align-self: center;
+		img {
+			max-width: rem(160);
+		}
+	}
+
+	&__icon {
+		line-height: rem(28);
+	}
+
+	@include breakpoint('md') {
+		padding-top: rem(100);
+		padding-bottom: rem(100);
+		background-position: center;
+		background-image: url($img-path + 'footer-bg.png');
+		background-size: cover;
+
+		&__wrapper {
+			grid-template-areas: 'address logo about';
+			grid-template-columns: repeat(3, 1fr);
+			gap: rem(20);
+			text-align: left;
+		}
+	}
+}
