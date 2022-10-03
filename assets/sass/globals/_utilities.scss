@@ -30,9 +30,6 @@
 }
 
 .marginBottom {
-	&--20 {
-		margin-bottom: rem(20);
-	}
 	&--40 {
 		margin-bottom: rem(40);
 	}
@@ -42,7 +39,10 @@
 	&-2 {
 		margin-bottom: rem(15);
 	}
-	&-lg {
+	&-3 {
+		margin-bottom: rem(20);
+	}
+	&-4 {
 		margin-bottom: rem(30);
 	}
 	&-5 {
@@ -75,6 +75,10 @@
 
 .uppercase {
 	text-transform: uppercase;
+}
+
+.lowercase {
+	text-transform: lowercase;
 }
 
 .border {
