@@ -17,6 +17,10 @@
 			grid-template-columns: repeat(2, 1fr);
 			gap: rem(40);
 		}
+		&-md-3 {
+			grid-template-columns: repeat(3, 1fr);
+			gap: rem(20);
+		}
 	}
 
 	@include breakpoint('lg') {
@@ -37,4 +41,10 @@
 
 .flex {
 	display: flex;
+}
+
+.inline-list {
+	> * {
+		display: inline-block;
+	}
 }

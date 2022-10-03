@@ -8,6 +8,7 @@ aria-label de servicios (entrega) [https://www.aditus.io/aria/aria-label/]
 -descargar solo los íconos que se usan de fontawesome para no usar la cdn?
 - cohesión en los estilos (altura de línea y espaciado de letra)
 - formato de modificadores
+-gap de grid en diferentes dispositivos
 
 Herramientas
 fontawesome
