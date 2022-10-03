@@ -48,3 +48,9 @@
 		display: inline-block;
 	}
 }
+
+.alignSelf {
+	&-center {
+		align-self: center;
+	}
+}

@@ -1,11 +1,5 @@
 @use '../utils/' as *;
 
-.about {
-	.media img {
-		max-width: rem(400);
-	}
-}
-
 .service {
 	display: flex;
 	flex-direction: column;
