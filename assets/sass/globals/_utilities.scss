@@ -39,14 +39,20 @@
 	&-1 {
 		margin-bottom: rem(10);
 	}
-	&--md {
+	&-2 {
 		margin-bottom: rem(16);
 	}
 	&-lg {
 		margin-bottom: rem(30);
 	}
-	&--xl {
-		margin-bottom: rem(90);
+	&-5 {
+		margin-bottom: rem(50);
+	}
+	&-6 {
+		margin-bottom: rem(70);
+	}
+	&-7 {
+		margin-bottom: rem(120);
 	}
 }
 
@@ -70,23 +76,6 @@
 
 .uppercase {
 	text-transform: uppercase;
-}
-
-.section-title {
-	position: relative;
-
-	h2 {
-		position: relative;
-	}
-}
-
-.title-decoration {
-	position: absolute;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	left: 50%;
-	max-width: rem(200);
-	z-index: -1;
 }
 
 .border {

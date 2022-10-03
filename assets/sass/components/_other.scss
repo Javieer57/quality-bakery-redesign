@@ -1,0 +1,19 @@
+@use '../utils/' as *;
+
+.decorated-title {
+	position: relative;
+	text-align: center;
+
+	&::before {
+		z-index: -1;
+		position: absolute;
+		content: '';
+		top: 50%;
+		transform: translateY(-50%);
+		left: 0;
+		width: 100%;
+		min-height: rem(140);
+		background: url($img-path + 'decoracion.png') no-repeat center;
+		background-size: contain;
+	}
+}
