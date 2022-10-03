@@ -40,7 +40,7 @@
 		margin-bottom: rem(10);
 	}
 	&-2 {
-		margin-bottom: rem(16);
+		margin-bottom: rem(15);
 	}
 	&-lg {
 		margin-bottom: rem(30);
@@ -62,8 +62,7 @@
 	}
 }
 
-.flex-center {
-	display: flex;
+.flex-centered {
 	align-items: center;
 	justify-content: center;
 }

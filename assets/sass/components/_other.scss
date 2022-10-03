@@ -17,3 +17,51 @@
 		background-size: contain;
 	}
 }
+
+.feature {
+	display: flex;
+	flex-direction: column;
+
+	&__image {
+		max-width: rem(300);
+	}
+
+	&__content {
+		margin-bottom: rem(15);
+		flex: 1;
+
+		> *:not(:last-child) {
+			margin-bottom: rem(15);
+		}
+	}
+
+	&__title {
+		text-transform: uppercase;
+		font-size: rem(24);
+	}
+
+	&__btn {
+		align-self: center;
+	}
+}
+
+.testimonial {
+	background-image: url($img-path + 'bakery.jpg');
+	background-size: cover;
+	padding: rem(40);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	&__img {
+		max-width: rem(40);
+	}
+
+	@include breakpoint('md') {
+		padding: rem(20);
+	}
+
+	@include breakpoint('lg') {
+		padding: rem(60);
+	}
+}

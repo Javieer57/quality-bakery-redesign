@@ -1,15 +1,17 @@
 console.log('hola');
 
 /* Misma altura en título */
-let servicios = document.querySelectorAll('.flex-center');
+function sameHeight(selector) {
+	let elements = document.querySelectorAll(selector),
+		heights = [],
+		maxHeight;
 
-let alturas = [];
-servicios.forEach((servicio) => {
-	alturas.push(servicio.clientHeight);
-});
+	elements.forEach((element) => heights.push(element.clientHeight));
 
-let maxHeight = Math.max(...alturas);
+	maxHeight = Math.max(...heights);
 
-servicios.forEach((servicio) => {
-	servicio.style.minHeight = maxHeight + 'px';
-});
+	elements.forEach((element) => (element.style.minHeight = maxHeight + 'px'));
+}
+
+// sameHeight('[data-bakery="feature-title"]');
+sameHeight('.flex-centered');
