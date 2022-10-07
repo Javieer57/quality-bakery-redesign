@@ -22,6 +22,7 @@
 .feature {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 
 	&__image {
 		max-width: rem(300);
@@ -43,6 +44,7 @@
 
 	&__btn {
 		align-self: center;
+		line-height: normal;
 	}
 }
 

@@ -1,0 +1,22 @@
+@use '../utils/' as *;
+
+.splide__pagination {
+	&.custom-pagination {
+		bottom: -(rem(32));
+	}
+}
+
+.splide__pagination__page {
+	&.custom-pagination-page.is-active {
+		background-color: var(--accent);
+	}
+}
+
+.splide__arrow {
+	&.custom-arrow {
+		background-color: var(--accent);
+		svg {
+			fill: var(--white);
+		}
+	}
+}

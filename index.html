@@ -12,12 +12,18 @@
 
 		<!-- ::: All CSS Files here ::: -->
 		<!-- Vendor CSS Files -->
+		<link rel="stylesheet" href="./assets/dist/css/vendor/splide.min.css" />
 		<link rel="stylesheet" href="./assets/dist/css/vendor/normalize.css" />
 
 		<!-- Main Style CSS File -->
 		<link rel="stylesheet" href="./assets/dist/css/styles.min.css" />
 
 		<!-- ::: All JS Files here ::: -->
+		<!-- Vendor CSS Files -->
+		<script defer src="./assets/dist/js/vendor/splide.min.js"></script>
+		<script defer src="./assets/dist/js/vendor/splide-extension-grid.min.js"></script>
+
+		<!-- Main Style JS File -->
 		<script defer src="./assets/dist/js/main.min.js"></script>
 
 		<title>Pastelería y Panadería Tradicional en México | Quality Bakery</title>
@@ -96,7 +102,41 @@
 						</li>
 					</ul>
 				</section>
+			</div>
 
+			<!-- ::: Gallery ::: -->
+			<div class="splide marginBottom-7">
+				<div class="splide__track">
+					<ul class="splide__list">
+						<li class="splide__slide">
+							<img src="./assets/img/gallery/cupcake-de-chocolate.png" alt="cupcake con chocolate ferrero rocher" />
+						</li>
+						<li class="splide__slide">
+							<img src="./assets/img/gallery/donas-glaseadas.png" alt="caja de cartón con donas glaseadas" />
+						</li>
+						<li class="splide__slide">
+							<img src="./assets/img/gallery/estante-con-pasteles.png" alt="exhibidor con pasteles de diferentes sabores" />
+						</li>
+						<li class="splide__slide">
+							<img src="./assets/img/gallery/estante-de-panaderia.png" alt="estante con pan de diferentes tipos" />
+						</li>
+						<li class="splide__slide">
+							<img src="./assets/img/gallery/galletas-navideñas.png" alt="galletas navideñas" />
+						</li>
+						<li class="splide__slide">
+							<img src="./assets/img/gallery/croissant.png" alt="croissants" />
+						</li>
+						<li class="splide__slide">
+							<img src="./assets/img/gallery/roles-de-canela.png" alt="roles de canela espolvoreados con azúcar glass" />
+						</li>
+						<li class="splide__slide">
+							<img src="./assets/img/gallery/pastel-de-chocolate.png" alt="pastel de chocolate con decoración de merengue" />
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="container">
 				<!-- ::: Contact ::: -->
 				<section class="grid grid-md-2 marginBottom-7">
 					<figure class="testimonial text-white">
@@ -148,8 +188,8 @@
 		</main>
 
 		<!-- ::: Footer ::: -->
-		<div class="footer">
-			<footer class="container footer__wrapper textAlign-center textAlign-md-left">
+		<footer class="footer">
+			<div class="container footer__wrapper textAlign-center textAlign-md-left">
 				<div class="footer__address">
 					<h3 class="marginBottom-4 fontSize-3">Contáctanos</h3>
 
@@ -197,7 +237,7 @@
 						Somos una empresa mexicana dedicada a la pastelería tradicional, fusionamos nuestro sabor con el toque tradicional que caracteriza a la pastelería mexicana.
 					</p>
 				</div>
-			</footer>
-		</div>
+			</div>
+		</footer>
 	</body>
 </html>

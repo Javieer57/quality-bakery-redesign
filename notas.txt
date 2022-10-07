@@ -9,6 +9,7 @@ aria-label de servicios (entrega) [https://www.aditus.io/aria/aria-label/]
 - cohesión en los estilos (altura de línea y espaciado de letra)
 - formato de modificadores
 -gap de grid en diferentes dispositivos
+-el carousel no lee los elementos con el lector de pantalla
 
 Herramientas
 fontawesome
@@ -17,5 +18,6 @@ fuentes
 -- Retos
 servicios con títulos del mismo tamaño
 omitir trabajo extra de filtros exportando la imagen ya editada
+integración de librería (paquete npm)
 
 - citar testimonios [https://html.spec.whatwg.org/multipage/grouping-content.html#the-blockquote-element]
