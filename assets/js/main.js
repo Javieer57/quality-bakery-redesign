@@ -13,33 +13,7 @@ function sameHeight(selector) {
 sameHeight('[data-bakery="feature-title"]');
 
 /* ::: SplideJS config ::: */
-new Splide('.splide', {
-	grid: {
-		dimensions: [
-			[1, 1],
-			[2, 2],
-			[1, 2],
-			[1, 1],
-		],
-		gap: {
-			row: '.5rem',
-			col: '.5rem',
-		},
-	},
-	role: 'group', // https://splidejs.com/guides/accessibility/
-	label: 'Galería con algunos de nuestros productos',
-	rewind: true,
-	live: true,
-	perPage: 2,
-	drag: 'free',
-	gap: '.5rem',
-	cover: true,
-	heightRatio: 0.5,
-	classes: {
-		pagination: 'splide__pagination custom-pagination',
-		page: 'splide__pagination__page custom-pagination-page',
-		arrow: 'splide__arrow custom-arrow',
-	},
+Splide.defaults = {
 	i18n: {
 		prev: 'Diapositiva anterior',
 		next: 'Siguiente diapositiva',
@@ -53,8 +27,53 @@ new Splide('.splide', {
 		slide: 'diapositiva',
 		slideLabel: '%s de %s',
 	},
+	live: true,
+	cover: true,
 	mediaQuery: 'min',
+	role: 'group',
 	arrows: false,
+	rewind: true,
+};
+
+new Splide('#splide-hero', {
+	type: 'loop',
+	fixedWidth: '100%',
+	fixedHeight: '46.875rem',
+	label: 'Galería banners acerca de nosotros',
+	breakpoints: {
+		900: {
+			fixedHeight: '',
+			arrows: true,
+			heightRatio: '0.4285',
+		},
+		1200: {
+			heightRatio: '0.3255',
+		},
+	},
+}).mount();
+
+new Splide('#splide-gallery', {
+	grid: {
+		dimensions: [
+			[1, 1],
+			[2, 2],
+			[1, 2],
+			[1, 1],
+		],
+		gap: {
+			row: '.5rem',
+			col: '.5rem',
+		},
+	},
+	label: 'Galería con algunos de nuestros productos',
+	perPage: 2,
+	drag: 'free',
+	gap: '.5rem',
+	heightRatio: 0.5,
+	classes: {
+		pagination: 'splide__pagination gallery-pagination',
+		page: 'splide__pagination__page gallery-pagination-page',
+	},
 	breakpoints: {
 		900: {
 			arrows: true,

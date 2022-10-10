@@ -33,3 +33,15 @@
 		background-color: var(--accent);
 	}
 }
+
+.btn-white {
+	background: var(--white);
+	color: var(--accent);
+	border: none;
+
+	&:hover,
+	&:focus-visible {
+		color: var(--white);
+		background-color: var(--primary);
+	}
+}
