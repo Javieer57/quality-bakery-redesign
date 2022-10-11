@@ -1,0 +1,28 @@
+@use '../utils/' as *;
+
+.banner {
+	position: relative;
+	width: 100vw;
+	min-height: rem(200);
+	background-color: lightblue;
+	margin-bottom: rem(50);
+
+	&__title {
+		text-transform: uppercase;
+		color: var(--white);
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	@include breakpoint('md') {
+		min-height: rem(250);
+	}
+
+	@include breakpoint('lg') {
+		min-height: rem(300);
+		margin-bottom: rem(120);
+	}
+}

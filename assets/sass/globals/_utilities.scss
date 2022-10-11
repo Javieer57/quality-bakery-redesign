@@ -54,6 +54,30 @@
 	&-7 {
 		margin-bottom: rem(120);
 	}
+
+	@include breakpoint('md') {
+		&-1 {
+			margin-bottom: rem(10);
+		}
+		&-2 {
+			margin-bottom: rem(15);
+		}
+		&-3 {
+			margin-bottom: rem(20);
+		}
+		&-4 {
+			margin-bottom: rem(30);
+		}
+		&-5 {
+			margin-bottom: rem(50);
+		}
+		&-6 {
+			margin-bottom: rem(70);
+		}
+		&-7 {
+			margin-bottom: rem(120);
+		}
+	}
 }
 
 .marginRight {

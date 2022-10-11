@@ -8,7 +8,6 @@
 	&-1 {
 		font-size: rem(12);
 	}
-
 	&-2 {
 		font-size: rem(14);
 	}
@@ -20,6 +19,45 @@
 	}
 	&-5 {
 		font-size: rem(40);
+	}
+
+	@include breakpoint('md') {
+		&-md {
+			&-1 {
+				font-size: rem(12);
+			}
+			&-2 {
+				font-size: rem(14);
+			}
+			&-3 {
+				font-size: rem(24);
+			}
+			&-4 {
+				font-size: rem(30);
+			}
+			&-5 {
+				font-size: rem(40);
+			}
+		}
+	}
+	@include breakpoint('lg') {
+		&-lg {
+			&-1 {
+				font-size: rem(12);
+			}
+			&-2 {
+				font-size: rem(14);
+			}
+			&-3 {
+				font-size: rem(24);
+			}
+			&-4 {
+				font-size: rem(30);
+			}
+			&-5 {
+				font-size: rem(40);
+			}
+		}
 	}
 }
 
