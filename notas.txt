@@ -11,9 +11,11 @@ aria-label de servicios (entrega) [https://www.aditus.io/aria/aria-label/]
 -gap de grid en diferentes dispositivos
 -el carousel no lee los elementos con el lector de pantalla
 
+
 Herramientas
 fontawesome
 fuentes
+https://www.cssscript.com/header-navbar-templates/
 
 -- Retos
 servicios con títulos del mismo tamaño

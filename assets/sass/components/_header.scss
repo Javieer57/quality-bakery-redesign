@@ -1,0 +1,151 @@
+@use '../utils/' as *;
+
+.header {
+	&-desktop {
+		display: none;
+		max-width: rem(900);
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		text-align: center;
+
+		&__logo {
+			max-width: rem(120);
+		}
+
+		&__nav-wrapper {
+			display: grid;
+			grid-template-columns: repeat(5, 1fr);
+			justify-items: center;
+			align-items: center;
+		}
+
+		&__nav-item {
+			position: relative;
+			a {
+				text-transform: uppercase;
+				font-size: rem(14);
+				letter-spacing: 0.17em;
+				transition: var(--transition-animation);
+				line-height: normal;
+				display: inline-block;
+			}
+
+			&::before {
+				transition: var(--transition-animation);
+				content: '';
+				width: 0;
+				max-width: rem(100);
+				display: block;
+				height: 1px;
+				position: absolute;
+				bottom: -(rem(5));
+				left: 50%;
+				transform: translateX(-50%);
+				background-color: var(--primary);
+			}
+
+			&:hover,
+			&:focus {
+				color: var(--primary);
+
+				&::before {
+					width: 100%;
+				}
+			}
+		}
+
+		@include breakpoint('md') {
+			display: block;
+		}
+	}
+
+	&-mobile {
+		z-index: 99;
+		position: relative;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		text-align: center;
+
+		&__logo {
+			max-width: rem(100);
+			display: inline-block;
+			font-weight: bold;
+			font-size: 20px;
+		}
+
+		&__nav-wrapper {
+			position: absolute;
+			left: 50%;
+			height: auto;
+			transform: translateX(-50%);
+			width: 100vw;
+			background-color: var(--white);
+			visibility: hidden;
+			opacity: 0;
+			padding: rem(16) 0;
+			transition: var(--transition-animation);
+
+			&.active {
+				visibility: visible;
+				opacity: 1;
+			}
+		}
+
+		&__nav-toggle {
+			display: block;
+			position: absolute;
+			top: 50%;
+			right: rem(24);
+			background: none;
+			border: none;
+			font-size: rem(24);
+			transform: translateY(-50%);
+			color: var(--darker-accent);
+
+			// @include breakpoint('md') {
+			// 	display: none;
+			// }
+		}
+
+		&__nav-item {
+			position: relative;
+			a {
+				display: block;
+				padding: 1rem;
+				text-transform: uppercase;
+				text-transform: uppercase;
+				font-size: rem(14);
+				letter-spacing: 0.17em;
+				transition: var(--transition-animation);
+				line-height: normal;
+			}
+
+			&::before {
+				transition: var(--transition-animation);
+				content: '';
+				width: 0;
+				max-width: rem(100);
+				display: block;
+				height: 1px;
+				position: absolute;
+				bottom: 0;
+				left: 50%;
+				transform: translateX(-50%);
+				background-color: var(--primary);
+			}
+
+			&:hover,
+			&:focus {
+				color: var(--primary);
+
+				&::before {
+					width: 100%;
+				}
+			}
+		}
+
+		@include breakpoint('md') {
+			display: none;
+		}
+	}
+}
