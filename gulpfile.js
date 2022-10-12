@@ -61,6 +61,7 @@ function watchTask() {
 
 // Public Gulp task
 exports.imagesTask = imagesTask;
+exports.sassTask = sassTask;
 
 // Default Gulp task
 exports.default = series(browsersyncServe, watchTask);
