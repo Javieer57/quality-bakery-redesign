@@ -1,6 +1,10 @@
 @use '../utils/' as *;
 
 // ::: Hero
+#splide-hero {
+	box-shadow: 0px 17px 15px -10px #777777;
+}
+
 .slider-hero__content {
 	position: absolute;
 	top: 50%;

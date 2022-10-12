@@ -57,6 +57,7 @@
 	justify-content: center;
 	text-align: center;
 	gap: rem(20);
+	box-shadow: 0px 17px 15px -10px #777777;
 
 	&__img {
 		max-width: rem(40);
@@ -70,4 +71,8 @@
 	@include breakpoint('lg') {
 		padding: rem(60);
 	}
+}
+
+.map-container {
+	box-shadow: 0px 17px 15px -10px #777777;
 }
