@@ -54,9 +54,12 @@ function browsersyncReload(cb) {
 
 // Watch Task
 function watchTask() {
-	watch('./*.html', browsersyncReload);
-	watch('./assets/js/**/*.js', series(jsTask, browsersyncReload));
-	watch('./assets/sass/**/*.scss', series(sassTask, browsersyncReload));
+	// watch('./*.html', browsersyncReload);
+	watch('./assets/js/**/*.js', jsTask);
+	watch('./assets/sass/**/*.scss', sassTask);
+	// watch('./*.html', browsersyncReload);
+	// watch('./assets/js/**/*.js', series(jsTask, browsersyncReload));
+	// watch('./assets/sass/**/*.scss', series(sassTask, browsersyncReload));
 }
 
 // Public Gulp task
@@ -64,4 +67,5 @@ exports.imagesTask = imagesTask;
 exports.sassTask = sassTask;
 
 // Default Gulp task
-exports.default = series(browsersyncServe, watchTask);
+exports.default = watchTask;
+// exports.default = series(browsersyncServe, watchTask);

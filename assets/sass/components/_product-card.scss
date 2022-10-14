@@ -1,0 +1,35 @@
+@use '../utils/' as *;
+
+.product-card {
+	text-align: center;
+	border-radius: 0 0 20px 20px;
+	overflow: hidden;
+	box-shadow: var(--shadow);
+	max-width: rem(400);
+	// para que la card se ajuste a la altura
+	display: flex;
+	flex-direction: column;
+
+	&__img {
+		background: rgb(240, 241, 240);
+		background: linear-gradient(180deg, rgba(240, 241, 240, 1) 0%, rgba(240, 241, 240, 1) 60%, rgba(255, 255, 255, 1) 60%, rgba(255, 255, 255, 1) 100%);
+		padding: rem(20);
+	}
+	&__content {
+		padding: 0 rem(20);
+		margin-bottom: rem(20);
+		flex-grow: 1; // para que la card se ajuste a la altura
+	}
+	&__name {
+		margin-bottom: rem(20);
+		font-size: rem(24);
+		text-transform: uppercase;
+		min-height: rem(56);
+	}
+	&__price-tag {
+		background-color: var(--primary);
+		color: var(--white);
+		padding: rem(15);
+		font-weight: bold;
+	}
+}

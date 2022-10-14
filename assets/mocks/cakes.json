@@ -1,0 +1,44 @@
+[
+	{
+		"image": "pastel_confeti.png",
+		"name": "confeti",
+		"description": "Pan de vainilla, cubierto de fondant y chispas de colores.",
+		"price": "$300"
+	},
+	{
+		"image": "pastel_fresas_chocolate.png",
+		"name": "fresas con chocolate",
+		"description": "Pan de vainilla, con pasta de almendras, licor de amaretto Disaronno con cubierta de chocolate Turín.",
+		"price": "$300"
+	},
+	{
+		"image": "pastel_fresas_boda.png",
+		"name": "fresas con chocolate",
+		"description": "Naked cake relleno de frutas y con frutas repartidas por encima a modo de guarnición.",
+		"price": "$300"
+	},
+	{
+		"image": "pastel_fresas_gourmet.png",
+		"name": "ganache de chocolate gourmet",
+		"description": "Pan de fresa relleno con chispas de chocolate. Cubierto con ganache de chocolate y decorado de macarons.",
+		"price": "$300"
+	},
+	{
+		"image": "pastel_fresas_vainilla.png",
+		"name": "vainilla y fresa",
+		"description": "Naked cake con pan de vainilla adornado de fresas y espolvoreado con azúcar",
+		"price": "$300"
+	},
+	{
+		"image": "pastel_frutos_rojos.png",
+		"name": "mermelada de frutos rojos",
+		"description": "Pan de chocolate relleno con almendraz, cubierto de mermelada y adornado con frutos rojos.",
+		"price": "$300"
+	},
+	{
+		"image": "pastel_oreo.png",
+		"name": "pastel de oreo",
+		"description": "Pan de chocolate con relleno y decoración de galletas oreo.",
+		"price": "$300"
+	}
+]
