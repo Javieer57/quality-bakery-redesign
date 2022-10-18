@@ -7,15 +7,21 @@
   <section-banner data-title="Pastelería Tradicional" data-img="./assets/img/hero/hero-cake.png"></section-banner>
 
   <!-- ::: Productos ::: -->
-  <div class="container grid grid-md-2 grid-lg-3 justifyItems-center" id="product-container">
-  </div>
+  <div class="container">
+    <div class="filter-buttons" role="group" aria-controls="product-container">
+      <button aria-pressed="false" class="btn btn-outline--grey active" data-filter="todos">Todos</button>
+      <button aria-pressed="false" class="btn btn-outline--grey" data-filter="chocolate">Chocolate</button>
+      <button aria-pressed="false" class="btn btn-outline--grey" data-filter="vainilla">Vainilla</button>
+    </div>
 
+    <ul class="grid grid-md-2 grid-lg-3 justifyItems-center" id="product-container" aria-live="polite"></ul>
+  </div>
 </main>
 
 <template id="template-product-card">
-  <div class="product-card">
+  <li class="product-card" data-category="" data-template="container">
     <div class="product-card__img">
-      <img data-template="image" src=".." alt="..">
+      <img data-template="image" src=".." alt="">
     </div>
     <div class="product-card__bg">
     </div>
@@ -26,7 +32,9 @@
         <p><span class="hidden">Precio:</span> <span data-template="price">..</span></p>
       </div>
     </div>
-  </div>
+  </li>
 </template>
+
+<script src="./assets/dist/js/filtro_productos.min.js"></script>
 
 <?php include './assets/php/layout/footer.php'; ?>

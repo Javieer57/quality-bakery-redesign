@@ -23,6 +23,8 @@
   <!-- Vendor CSS Files -->
   <script defer src="./assets/dist/js/vendor/splide.min.js"></script>
   <script defer src="./assets/dist/js/vendor/splide-extension-grid.min.js"></script>
+  <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 
   <!-- Main Style JS File -->
   <script defer src="./assets/dist/js/main.min.js"></script>

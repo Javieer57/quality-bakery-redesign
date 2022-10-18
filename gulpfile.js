@@ -30,11 +30,11 @@ function imagesTask() {
 
 // JS Task
 function jsTask() {
-	return src('./assets/js/**/*.js')
+	return src('./assets/js/**/*.js', { sourcemaps: true })
 		.pipe(babel({ presets: ['@babel/preset-env'] }))
 		.pipe(terser())
 		.pipe(rename({ extname: '.min.js' }))
-		.pipe(dest('./assets/dist/js/'));
+		.pipe(dest('./assets/dist/js/', { sourcemaps: '.' }));
 }
 
 // Browsersync Tasks
