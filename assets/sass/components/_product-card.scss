@@ -20,7 +20,7 @@
 
 	&__bg {
 		grid-area: 2 / 1 / -1 / -1;
-		box-shadow: var(--shadow);
+		box-shadow: var(--default-shadow);
 		border-radius: var(--border-radius);
 		z-index: -1;
 	}
@@ -45,7 +45,7 @@
 	}
 
 	&__price-tag {
-		background-color: var(--primary);
+		background-color: var(--orange);
 		color: var(--white);
 		padding: rem(15);
 		font-weight: bold;

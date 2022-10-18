@@ -41,12 +41,12 @@
 				bottom: -(rem(5));
 				left: 50%;
 				transform: translateX(-50%);
-				background-color: var(--primary);
+				background-color: var(--orange);
 			}
 
 			&:hover,
 			&:focus {
-				color: var(--primary);
+				color: var(--orange);
 
 				&::before {
 					width: 100%;
@@ -131,12 +131,12 @@
 				bottom: 0;
 				left: 50%;
 				transform: translateX(-50%);
-				background-color: var(--primary);
+				background-color: var(--orange);
 			}
 
 			&:hover,
 			&:focus {
-				color: var(--primary);
+				color: var(--orange);
 
 				&::before {
 					width: 100%;

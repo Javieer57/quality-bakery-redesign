@@ -21,13 +21,13 @@
 		&:hover,
 		&:focus-visible {
 			color: var(--white);
-			background-color: var(--primary);
+			background-color: var(--orange);
 		}
 	}
 }
 
 .btn-orange {
-	background: var(--primary);
+	background: var(--orange);
 	color: var(--white);
 	border: none;
 
@@ -45,6 +45,6 @@
 	&:hover,
 	&:focus-visible {
 		color: var(--white);
-		background-color: var(--primary);
+		background-color: var(--orange);
 	}
 }

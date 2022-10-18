@@ -5,12 +5,18 @@
 	grid-template-columns: 1fr;
 	margin-bottom: rem(80);
 
-	&__thumb {
-		overflow: hidden;
-		background-color: var(--grey);
-		box-shadow: 0px 17px 15px -10px #777777;
+	&__thumb img,
+	&__title,
+	&__btn {
+		transition: var(--transition-animation);
+	}
 
-		&:hover img {
+	&__thumb {
+		overflow: hidden; // evitar desborde de img en hover
+		background-color: var(--grey);
+		box-shadow: var(--default-shadow);
+
+		img:hover {
 			transform: scale(1.1);
 		}
 	}
@@ -18,44 +24,32 @@
 	&__content {
 		position: relative;
 		background-color: white;
-		padding: rem(45);
+		padding: rem(20) rem(20) rem(50);
 		text-align: center;
-		box-shadow: 0px 17px 15px -10px #777777;
+		box-shadow: var(--default-shadow);
 	}
 
 	&__title {
-		font-family: var(--secondary-font);
 		margin-bottom: rem(20);
-		font-size: rem(35);
-		font-weight: 400;
+		font-size: rem(24);
 
-		&:hover,
-		&:focus-within {
-			color: var(--primary);
+		@include interaction {
+			color: var(--orange);
 		}
 	}
 
-	&__text {
-		color: var(--accent);
-	}
-
 	&__btn {
-		border: none;
-		background: var(--accent);
+		@include defaultbtn;
+		@include absoluteCenterX;
+		background-color: var(--accent);
 		color: white;
 		padding: rem(10);
 		font-size: rem(24);
 		position: absolute;
 		bottom: -(rem(20));
-		left: 50%;
-		transform: translateX(-50%);
-		transition: all 0.3s ease;
 
-		&:hover,
-		&:focus-visible,
-		&:focus,
-		&:active {
-			background-color: var(--primary);
+		@include interaction {
+			background-color: var(--orange);
 		}
 	}
 
@@ -71,38 +65,39 @@
 
 		&__content {
 			grid-area: 3 / 2 / -1 / -2;
+			padding: rem(45);
+		}
+
+		&__title {
+			font-size: rem(35);
 		}
 	}
 
 	@include breakpoint('lg') {
+		$self: &;
 		grid-template-columns: minmax(rem(200), rem(450)) rem(70) auto;
 		grid-template-rows: repeat(3, auto);
 
-		&:nth-child(even) {
-			grid-template-columns: auto rem(70) minmax(rem(200), rem(450));
-		}
-
 		&__thumb {
 			grid-area: 1 / 1 / -1 / 3;
-
-			.asymmetric-card:nth-child(even) & {
-				grid-area: 1 / 2 / -1 / -1;
-			}
 		}
 
 		&__content {
 			grid-area: 2 / 2 / -2 / -1;
 			text-align: left;
+		}
 
-			.asymmetric-card:nth-child(even) & {
+		&:nth-child(even) {
+			grid-template-columns: auto rem(70) minmax(rem(200), rem(450));
+
+			#{$self}__content {
 				text-align: left;
 				grid-area: 2 / 1 / -2 / 3;
 			}
+
+			#{$self}__thumb {
+				grid-area: 1 / 2 / -1 / -1;
+			}
 		}
 	}
-}
-
-/* :: utilities :: */
-.animate {
-	transition: all 0.3s ease;
 }

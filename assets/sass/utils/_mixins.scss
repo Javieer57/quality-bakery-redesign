@@ -5,3 +5,21 @@
 		@content;
 	}
 }
+
+@mixin absoluteCenterX {
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+@mixin interaction {
+	&:hover,
+	&:focus-within,
+	&:focus {
+		@content;
+	}
+}
+
+@mixin defaultbtn {
+	border: none;
+	background-color: transparent;
+}
