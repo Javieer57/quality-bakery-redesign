@@ -3,28 +3,28 @@
 
 <main>
   <!-- ::: Hero ::: -->
-  <section class="splide marginBottom-7" id="splide-hero">
+  <section class="splide marginBottom-7" id="splide-slider">
     <div class="splide__track">
       <ul class="splide__list">
         <li class="splide__slide">
           <img src="./assets/img/hero/hero-cake.png" alt="pastel de frutas con kiwi y fresa" />
           <div class="slider-hero__content">
             <h3 class="slider-hero__title">La mejor pastelería a unos pasos de ti</h3>
-            <a href="#" class="btn slider-hero__btn">Nuestros productos</a>
+            <a href="./productos.php" class="slider-hero__btn">Nuestros productos</a>
           </div>
         </li>
         <li class="splide__slide">
           <img src="./assets/img/hero/hero-cupcakes.png" alt="soportes con variedad de cupcakes" />
           <div class="slider-hero__content">
             <h3 class="slider-hero__title">Tenemos una sucursal cerca de ti</h3>
-            <a href="#" class="btn slider-hero__btn">Ver ubicaciones</a>
+            <a href="./contacto.php" class="slider-hero__btn">Ver ubicaciones</a>
           </div>
         </li>
         <li class="splide__slide">
           <img src="./assets/img/hero/hero-pay.png" alt="pays de frutos rojos" />
           <div class="slider-hero__content">
             <h3 class="slider-hero__title">Surte tu negocio con nuestros productos</h3>
-            <a href="/contacto.html" class="btn slider-hero__btn">Contacto</a>
+            <a href="./contacto.php" class="slider-hero__btn">Contacto</a>
           </div>
         </li>
       </ul>
@@ -203,6 +203,6 @@
 
 
 <!-- ::: JS ::: -->
-<script defer src="./assets/dist/js/landing.min.js"></script>
+<script defer src="./assets/dist/js/splide_config.min.js"></script>
 
 <?php include './assets/php/layout/footer.php'; ?>

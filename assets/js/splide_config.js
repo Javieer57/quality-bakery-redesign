@@ -1,5 +1,6 @@
-/* ::: SplideJS config ::: */
+/* configuración general splidejs */
 Splide.defaults = {
+	// textos de accesibilidad: https://splidejs.com/guides/i18n/
 	i18n: {
 		prev: 'Diapositiva anterior',
 		next: 'Siguiente diapositiva',
@@ -21,13 +22,14 @@ Splide.defaults = {
 	rewind: true,
 };
 
-new Splide('#splide-hero', {
+/* configuración de slider */
+new Splide('#splide-slider', {
 	type: 'loop',
 	fixedWidth: '100%',
 	fixedHeight: '46.875rem',
 	autoplay: true,
 	interval: 5000,
-	label: 'Galería banners acerca de nosotros',
+	label: 'Banners sobre quality-bakery',
 	breakpoints: {
 		900: {
 			fixedHeight: '',
@@ -40,7 +42,9 @@ new Splide('#splide-hero', {
 	},
 }).mount();
 
+/* configuración de galería */
 new Splide('#splide-gallery', {
+	// https://splidejs.com/extensions/grid/
 	grid: {
 		dimensions: [
 			[1, 1],
@@ -58,6 +62,7 @@ new Splide('#splide-gallery', {
 	drag: 'free',
 	gap: '.5rem',
 	heightRatio: 0.5,
+	// clases para personalizar: https://splidejs.com/guides/options/#classes
 	classes: {
 		pagination: 'splide__pagination gallery-pagination',
 		page: 'splide__pagination__page gallery-pagination-page',

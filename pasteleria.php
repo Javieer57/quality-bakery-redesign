@@ -4,7 +4,7 @@
 
 
 <main class="marginBottom-7">
-  <section-banner data-title="Pastelería" data-img="./assets/img/hero/hero-cake.png"></section-banner>
+  <section-banner data-title="Pastelería"></section-banner>
 
   <div class="container">
     <div class="asymmetric-card">

@@ -29,7 +29,9 @@ navToggle.addEventListener('click', function () {
 	}
 });
 
-/* ::: Banners ::: */
+/* ::: Web Components ::: */
+// https://developer.mozilla.org/en-US/docs/Web/Web_Components
+
 class Banner extends HTMLElement {
 	constructor() {
 		super();
@@ -37,7 +39,7 @@ class Banner extends HTMLElement {
 
 	connectedCallback() {
 		let title = this.getAttribute('data-title'),
-			img = this.getAttribute('data-img');
+			img = './assets/img/hero/hero-cake.png';
 
 		this.innerHTML = `
 		<div class="banner" style="background-image: url('${img}')">
