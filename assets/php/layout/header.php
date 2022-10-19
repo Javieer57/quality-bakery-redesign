@@ -5,11 +5,11 @@
     <nav class="header-desktop__nav">
       <ul class="header-desktop__nav-wrapper">
         <li class="header-desktop__nav-item"><a href="./pasteleria.php">Pastelería</a></li>
-        <li class="header-desktop__nav-item"><a href="#">Panadería</a></li>
+        <li class="header-desktop__nav-item"><a href="./pasteleria.php">Panadería</a></li>
         <li class="header-desktop__logo">
           <a href="./" aria-label="inicio"><img src="./assets/img/quality-bakery-logo.png" alt="" title="" /></a>
         </li>
-        <li class="header-desktop__nav-item"><a href="#">Servicio a domicilio</a></li>
+        <li class="header-desktop__nav-item"><a href="./contacto.php">Servicio a domicilio</a></li>
         <li class="header-desktop__nav-item"><a href="./contacto.php">Contacto</a></li>
       </ul>
     </nav>
@@ -26,8 +26,8 @@
       <ul class="header-mobile__nav-wrapper">
         <li class="header-mobile__nav-item"><a href="#">Inicio</a></li>
         <li class="header-mobile__nav-item"><a href="./pasteleria.php">Pastelería</a></li>
-        <li class="header-mobile__nav-item"><a href="#">Panadería</a></li>
-        <li class="header-mobile__nav-item"><a href="#">Servicio a domicilio</a></li>
+        <li class="header-mobile__nav-item"><a href="./pasteleria.php">Panadería</a></li>
+        <li class="header-mobile__nav-item"><a href="./contacto.php">Servicio a domicilio</a></li>
         <li class="header-mobile__nav-item"><a href="./contacto.php">Contacto</a></li>
       </ul>
     </nav>

@@ -3,14 +3,12 @@
 .decorated-title {
 	position: relative;
 	text-align: center;
-	text-transform: uppercase;
 
+	// imagen de fondo
 	&::before {
 		z-index: -1;
-		position: absolute;
 		content: '';
-		top: 50%;
-		transform: translateY(-50%);
+		@include absoluteCenterY;
 		left: 0;
 		width: 100%;
 		min-height: rem(140);
@@ -57,7 +55,7 @@
 	justify-content: center;
 	text-align: center;
 	gap: rem(20);
-	box-shadow: 0px 17px 15px -10px #777777;
+	box-shadow: var(--default-shadow);
 
 	&__img {
 		max-width: rem(40);

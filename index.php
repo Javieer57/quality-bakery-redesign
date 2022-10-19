@@ -35,7 +35,7 @@
     <!-- ::: About ::: -->
     <section class="grid grid-md-2 marginBottom-7">
       <div class="alignSelf-center">
-        <h2 class="fontSize-5 decorated-title marginBottom-4">Pastelería artesanal 100% mexicana</h2>
+        <h2 class="fontSize-4 fontSize-md-5 decorated-title marginBottom-4">Pastelería artesanal 100% mexicana</h2>
         <p class="textAlign-center">
           Pastelería y Panadería Quality Bakery es una empresa mexicana dedicada a la pastelería artesanal, que
           fusiona el sabor franco-americano con la tradicional pastelería
@@ -51,7 +51,7 @@
     <section class="marginBottom-7">
       <h2 class="decorated-title fontSize-5 marginBottom-6">Nuestros servicios</h2>
 
-      <ul class="inline-list grid grid-md-2 grid-lg-4 textAlign-center">
+      <ul class="grid grid-md-2 grid-lg-4 textAlign-center">
         <li class="feature">
           <img class="feature__image" src="./assets/img/cake.png" alt="pastel dibujado a mano con cerezas encima" />
 
@@ -63,7 +63,7 @@
               perder!</p>
           </div>
 
-          <a href="#" class="feature__btn btn btn-outline--grey" aria-label="Ir a catálogo de pasteles"><i
+          <a href="./productos.php" class="feature__btn btn btn-outline--grey" aria-label="Ir a catálogo de pasteles"><i
               class="fa-fw fa-sharp fa-solid fa-plus"></i></a>
         </li>
 

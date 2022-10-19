@@ -14,7 +14,7 @@
 
 .btn-outline {
 	&--grey {
-		border: 1px solid var(--grey-border);
+		border: var(--grey-border);
 		background-color: transparent;
 
 		&.active,
@@ -31,19 +31,20 @@
 	color: var(--white);
 	border: none;
 
-	&:hover,
-	&:focus-visible {
+	@include interaction {
 		background-color: var(--accent);
 	}
 }
 
 .btn-white {
+	@include defaultbtn;
 	background: var(--white);
 	color: var(--accent);
 	border: none;
+	padding: rem(15) rem(20);
+	transition: var(--transition-animation);
 
-	&:hover,
-	&:focus-visible {
+	@include interaction {
 		color: var(--white);
 		background-color: var(--orange);
 	}

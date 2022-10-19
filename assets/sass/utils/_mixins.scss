@@ -16,6 +16,13 @@
 @mixin absoluteCenterX {
 	left: 50%;
 	transform: translateX(-50%);
+	position: absolute;
+}
+
+@mixin absoluteCenterY {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 @mixin interaction {
