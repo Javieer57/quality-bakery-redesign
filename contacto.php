@@ -8,42 +8,49 @@
   <div class="container">
     <!-- ::: Contact ::: -->
     <section class="grid grid-md-2 marginBottom-7">
-      <figure class="testimonial text-white">
-        <h3 class="fontSize-4 marginBottom-3">Horarios</h3>
-
-        <dl class="flex flex-justify-between fontSize-lg-3 gap-2">
-          <dt>Lunes</dt>
-          <dd><time>08:00</time> a <time>19:00</time></dd>
-        </dl>
-        <dl class="flex flex-justify-between fontSize-lg-3">
-          <dt>Martes</dt>
-          <dd><time>08:00</time> a <time>19:00</time></dd>
-        </dl>
-        <dl class="flex flex-justify-between fontSize-lg-3">
-          <dt>Miércoles</dt>
-          <dd><time>08:00</time> a <time>19:00</time></dd>
-        </dl>
-        <dl class="flex flex-justify-between fontSize-lg-3">
-          <dt>Jueves</dt>
-          <dd><time>08:00</time> a <time>19:00</time></dd>
-        </dl>
-        <dl class="flex flex-justify-between fontSize-lg-3">
-          <dt>Viernes</dt>
-          <dd><time>08:00</time> a <time>19:00</time></dd>
-        </dl>
-        <dl class="flex flex-justify-between fontSize-lg-3">
-          <dt>Sábado</dt>
-          <dd><time>09:00</time> a <time>18:00</time></dd>
-        </dl>
-        <dl class="flex flex-justify-between fontSize-lg-3">
-          <dt>Domingo</dt>
-          <dd><time>09:00</time> a <time>18:00</time></dd>
-        </dl>
-        <dl class="flex flex-justify-between fontSize-lg-3">
-          <dt>Días festivos</dt>
-          <dd>cerrado</dd>
-        </dl>
-      </figure>
+      <table class="testimonial text-white">
+        <caption class="fontSize-4 marginBottom-3">Horarios</caption>
+        <thead class="hidden ">
+          <tr>
+            <th>Día</th>
+            <th>Horario</th>
+          </tr>
+        </thead>
+        <tbody class="fontSize-lg-3">
+          <tr class="flex flex-justify-between marginBottom-3">
+            <td>Lunes</td>
+            <td><time>08:00</time> a <time>19:00</time></td>
+          </tr>
+          <tr class="flex flex-justify-between marginBottom-3">
+            <td>Martes</td>
+            <td><time>08:00</time> a <time>19:00</time></td>
+          </tr>
+          <tr class="flex flex-justify-between marginBottom-3">
+            <td>Miércoles</td>
+            <td><time>08:00</time> a <time>19:00</time></td>
+          </tr>
+          <tr class="flex flex-justify-between marginBottom-3">
+            <td>Jueves</td>
+            <td><time>08:00</time> a <time>19:00</time></td>
+          </tr>
+          <tr class="flex flex-justify-between marginBottom-3">
+            <td>Viernes</td>
+            <td><time>08:00</time> a <time>19:00</time></td>
+          </tr>
+          <tr class="flex flex-justify-between marginBottom-3">
+            <td>Sábado</td>
+            <td><time>09:00</time> a <time>18:00</time></td>
+          </tr>
+          <tr class="flex flex-justify-between marginBottom-3">
+            <td>Domingo</td>
+            <td><time>09:00</time> a <time>18:00</time></td>
+          </tr>
+          <tr class="flex flex-justify-between">
+            <td>Días festivos</td>
+            <td>cerrado</td>
+          </tr>
+        </tbody>
+      </table>
 
       <div>
         <h2 class="decorated-title marginBottom-5 fontSize-4">Tenemos la solución que buscas</h2>
