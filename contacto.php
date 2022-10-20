@@ -61,12 +61,13 @@
     <!-- ::: Sucursales ::: -->
     <div class="grid grid-md-2" id="locations">
       <div class="testimonial text-white">
-        <h3 class="marginBottom-4 fontSize-3">Buena vista</h3>
+        <h3 class="marginBottom-4 fontSize-3">Buenavista</h3>
 
         <div class="fontSize-2 ">
           <div class="marginBottom-1">
-            <p><i class="fa-fw fa-solid fa-location-dot marginRight-1"></i> Dr. Mariano Azuela 111, Sta María la
-              Ribera, Cuauhtémoc, 06400 Ciudad de México, CDMX</p>
+            <p><i class="fa-fw fa-solid fa-location-dot marginRight-1"></i> <abbr title="Doctor">Dr.</abbr> Mariano
+              Azuela 111, <abbr title="Santa">Sta.</abbr> María la
+              Ribera, Cuauhtémoc, <abbr title="Ciudad de México">CDMX</abbr></p>
           </div>
           <div class="marginBottom-4">
             <p><i class="fa-fw fa-solid fa-phone marginRight-1"></i> 55-55-47-72-19 y 55-55-47-02-74</p>
@@ -79,8 +80,10 @@
 
         <div class="fontSize-2">
           <div class="marginBottom-1">
-            <p><i class="fa-fw fa-solid fa-location-dot marginRight-1"></i> Calzada de Gpe. #321 Local-A Col.
-              Guadalupe Tepeyac Del. G.A.M. México D.F</p>
+            <p><i class="fa-fw fa-solid fa-location-dot marginRight-1"></i> Calzada de <abbr
+                title="Guadalupe">Gpe.</abbr> #321 Local-A, Guadalupe Tepeyac, <abbr
+                title="Gustavo A. Madero">GAM</abbr>, <abbr title="Ciudad de México">CDMX</abbr>
+            </p>
           </div>
           <div class="marginBottom-4">
             <p><i class="fa-fw fa-solid fa-phone marginRight-1"></i> 57-39-02-14</p>
@@ -94,9 +97,10 @@
         <div class="fontSize-2">
           <div class="marginBottom-1">
             <p>
-              <i class="fa-fw fa-solid fa-location-dot marginRight-1"></i> Av. Río Mixcoac (entre Av. Insurgentes y
-              Av. Patriotismo) # 58 Col. San José Insurgentes Del. Alvaro
-              Obregon México D.F
+              <i class="fa-fw fa-solid fa-location-dot marginRight-1"></i> <abbr title="Avenida">Av.</abbr> Río Mixcoac
+              (entre <abbr title="Avenida">Av.</abbr> Insurgentes y
+              <abbr title="Avenida">Av.</abbr> Patriotismo) #58, San José Insurgentes, Alvaro
+              Obregon México, <abbr title="Ciudad de México">CDMX</abbr>
             </p>
           </div>
           <div class="marginBottom-4">
@@ -110,8 +114,8 @@
 
         <div class="fontSize-2">
           <div class="marginBottom-1">
-            <p><i class="fa-fw fa-solid fa-location-dot marginRight-1"></i> Av. Central #199 Mz 2 LT 27 SM 3 Col.
-              Valle de Aragón, Ecatepec Edo. de México</p>
+            <p><i class="fa-fw fa-solid fa-location-dot marginRight-1"></i> <abbr title="Avenida">Av.</abbr> Central
+              #199 Mz 2 LT 27 SM 3, Valle de Aragón, Ecatepec, <abbr title="Estado">Edo.</abbr> de México</p>
           </div>
           <div class="marginBottom-4">
             <p><i class="fa-fw fa-solid fa-phone marginRight-1"></i> 57-11-88-55</p>

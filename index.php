@@ -59,7 +59,7 @@
             <div class="flex flex-centered" data-bakery="feature-title">
               <h3 class="feature__title">Pastelería</h3>
             </div>
-            <p>En las pasterías Quality Bakery tenemos mejores pasteles y postres artesanales. ¡No te lo puedes
+            <p>En las pastelerías Quality Bakery tenemos los mejores y postres artesanales. ¡No te lo puedes
               perder!</p>
           </div>
 
@@ -74,7 +74,7 @@
             <div class="flex flex-centered" data-bakery="feature-title">
               <h3 class="feature__title">Panadería</h3>
             </div>
-            <p>Encontra el mejor pan recién horneado, la mayor variedad de panes dulces o simplemente tu pan
+            <p>Encuentra el mejor pan recién horneado, la mayor variedad de panes dulces o simplemente tu pan
               tradicional de siempre.</p>
           </div>
 

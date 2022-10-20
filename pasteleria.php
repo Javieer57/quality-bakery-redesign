@@ -50,9 +50,9 @@
       <div class="asymmetric-card__content">
         <h2 class="asymmetric-card__title "><a href="./productos.php">Pasteles para eventos</a></h2>
         <p class="asymmetric-card__text">
-          Pastelería Quality Bakery te ofrece la más rica solución a tus fiestas, tenemos los mejores pasteles para
-          cumpleaños, Bodas, Primera Comunión, Bautizos, Baby Shower
-          y todo tipo de eventos. Deja tus fiestas en nuestras manos y no te arrepentirás.
+          Pastelería Quality Bakery te ofrece la más rica solución para tus fiestas. Tenemos los mejores pasteles para
+          cumpleaños, bodas, primera comunión, bautizos, baby shower y todo tipo de eventos. ¡Deja tus fiestas en
+          nuestras manos y no te arrepentirás!
         </p>
         <a href="./productos.php" class="asymmetric-card__btn" aria-label="Ir a menú de pasteles para eventos">
           <i class="fa-solid fa-arrow-right fa-fw"></i>
@@ -67,9 +67,9 @@
       <div class="asymmetric-card__content">
         <h2 class="asymmetric-card__title "><a href="./productos.php">Fiesta decembrina</a></h2>
         <p class="asymmetric-card__text">
-          Dale sabor a tus fiestas Decembrinas con los rico pasteles de Quality Bakery. Comparte con tu familia y amigos
-          los postres más tradicionales que nos trae la época
-          más esperada del año y descubre las delicias que nuestras pastelerías tienen para ti. Ah! recuerda ….. ¡Si te
+          Dale sabor a tus fiestas decembrinas con los ricos pasteles de Quality Bakery. Comparte con tu familia y
+          amigos los postres más tradicionales que nos trae la época
+          más esperada del año y descubre las delicias que nuestras pastelerías tienen para ti. ¡Si te
           tocó llevar el pastel nuestras pastelerías te harán
           quedar muy bien!
         </p>
