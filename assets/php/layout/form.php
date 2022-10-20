@@ -24,7 +24,7 @@
     </div>
 
     <!-- https://formsubmit.co/documentation -->
-    <input type="hidden" name="_next" value="https://pasteleria.javieereufracio.com/quality-bakery/thanks.php">
+    <input type="hidden" name="_next" value="https://pasteleria.javieereufracio.com/thanks.php">
     <input type="text" name="_honey" style="display:none">
     <input type="hidden" name="_template" value="table">
   </form>

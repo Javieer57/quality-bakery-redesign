@@ -10,7 +10,7 @@
     <p class="marginBottom-4  fontSize-3">Pronto nos podremos en contacto contigo para atender tu
       solicitud. Te
       invitamos a que sigas conociendo nuestros productos.</p>
-    <a class="btn-orange fontSize-3" href="./">Regresar a Inicio</a>
+    <a class="btn-orange fontSize-3 btn-padding-md" href="./">Regresar a Inicio</a>
   </div>
 </main>
 
