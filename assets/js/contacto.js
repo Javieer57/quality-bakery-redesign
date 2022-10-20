@@ -1,13 +1,14 @@
 /* ::: Mapa ::: */
-const FORM = document.querySelector('#contact-form');
-FORM.addEventListener('submit', (e) => {
-	e.preventDefault();
-});
+// const FORM = document.querySelector('#contact-form');
+// FORM.addEventListener('submit', (e) => {
+// 	e.preventDefault();
+// });
 
 /* ::: Mapa ::: */
 const MAP = document.querySelector('#map');
 const LOCATION_BUTTONS = document.querySelectorAll('#locations button');
 const MAP_MAX_ZOOM = 19;
+const MAP_MIN_ZOOM = 16;
 const MAP_ZOOM = 18;
 const LOCATIONS = {
 	buenavista: { lat: 19.46762052976587, lng: -99.12371109219148 },
@@ -25,11 +26,12 @@ LOCATION_BUTTONS.forEach((button) => {
 
 /* iniciar mapa */
 // leaflet docs: https://leafletjs.com/examples/quick-start/
-let map = L.map('map').setView(DEFAULT_LOCATION, MAP_ZOOM);
+let map = L.map('map', { scrollWheelZoom: false }).setView(DEFAULT_LOCATION, MAP_ZOOM);
 
 /* agregar créditos al mapa */
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	maxZoom: MAP_MAX_ZOOM,
+	minZoom: MAP_MIN_ZOOM,
 	attribution: '© OpenStreetMap',
 }).addTo(map);
 

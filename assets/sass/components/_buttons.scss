@@ -27,9 +27,14 @@
 }
 
 .btn-orange {
+	@include defaultbtn;
 	background: var(--orange);
 	color: var(--white);
 	border: none;
+	letter-spacing: 0.02em;
+	// padding: rem(10);
+	display: inline-block;
+	line-height: normal;
 
 	@include interaction {
 		background-color: var(--accent);

@@ -8,10 +8,12 @@
 
   <!-- ::: Productos ::: -->
   <div class="container">
-    <div class="filter-buttons" role="group" aria-controls="product-container">
-      <button aria-pressed="false" class="btn btn-outline--grey active" data-filter="todos">Todos</button>
-      <button aria-pressed="false" class="btn btn-outline--grey" data-filter="chocolate">Chocolate</button>
-      <button aria-pressed="false" class="btn btn-outline--grey" data-filter="vainilla">Vainilla</button>
+    <div class="filter-buttons marginBottom-5 flex" role="group" aria-controls="product-container"
+      style="flex-wrap: wrap; gap: 20px; align-items:center">
+      <p class="fontSize-3">Sabores: </p>
+      <button aria-pressed="false" class="fontSize-3 btn btn-outline--grey active" data-filter="todos">Todos</button>
+      <button aria-pressed="false" class="fontSize-3 btn btn-outline--grey" data-filter="chocolate">Chocolate</button>
+      <button aria-pressed="false" class="fontSize-3 btn btn-outline--grey" data-filter="vainilla">Vainilla</button>
     </div>
 
     <ul class="grid grid-md-2 grid-lg-3 justifyItems-center" id="product-container" aria-live="polite"></ul>

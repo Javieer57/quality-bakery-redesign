@@ -1,6 +1,8 @@
 @use '../utils/' as *;
 
 .header {
+	box-shadow: var(--default-shadow);
+
 	&-desktop {
 		display: none;
 		max-width: rem(900);

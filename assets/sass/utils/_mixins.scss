@@ -1,4 +1,5 @@
 @use 'variables' as *;
+@use 'functions' as *;
 
 @mixin breakpoint($size, $sizes-map: $breakpoints) {
 	@media (min-width: map-get($sizes-map, $size)) {
@@ -36,4 +37,5 @@
 @mixin defaultbtn {
 	border: none;
 	background-color: transparent;
+	transition: var(--transition-animation);
 }
