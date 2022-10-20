@@ -1,5 +1,5 @@
 const PRODUCTS_CONTAINER = document.getElementById('product-container');
-const BASE_URL = 'http://localhost/quality-bakery/assets/';
+const BASE_URL = 'https://pasteleria.javieereufracio.com/assets/';
 const JSON_URL = BASE_URL + 'mocks/cakes.json';
 const PRODUCTS_IMAGES_URL = BASE_URL + 'img/pasteles/';
 const FILTER_BUTTONS = document.querySelectorAll('.filter-buttons button');

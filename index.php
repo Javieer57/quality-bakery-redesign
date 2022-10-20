@@ -78,8 +78,8 @@
               tradicional de siempre.</p>
           </div>
 
-          <a href="#" class="feature__btn btn btn-outline--grey" aria-label="Ir a catálogo de panadería"><i
-              class="fa-fw fa-sharp fa-solid fa-plus"></i></a>
+          <a href="./pasteleria.php" class="feature__btn btn btn-outline--grey"
+            aria-label="Ir a catálogo de panadería"><i class="fa-fw fa-sharp fa-solid fa-plus"></i></a>
         </li>
 
         <li class="feature">
@@ -93,7 +93,7 @@
               selección de pasteles.</p>
           </div>
 
-          <a href="#" class="feature__btn btn btn-outline--grey" aria-label="Ir a catálogo de eventos"><i
+          <a href="./contacto.php" class="feature__btn btn btn-outline--grey" aria-label="Ir a catálogo de eventos"><i
               class="fa-fw fa-sharp fa-solid fa-plus"></i></a>
         </li>
 
@@ -108,8 +108,8 @@
               ciudad.</p>
           </div>
 
-          <a href="#" class="feature__btn btn btn-outline--grey" aria-label="Ir a detalles de entrega a domicilio"><i
-              class="fa-fw fa-sharp fa-solid fa-plus"></i></a>
+          <a href="./contacto.php" class="feature__btn btn btn-outline--grey"
+            aria-label="Ir a detalles de entrega a domicilio"><i class="fa-fw fa-sharp fa-solid fa-plus"></i></a>
         </li>
       </ul>
     </section>
@@ -171,32 +171,7 @@
         </figcaption>
       </figure>
 
-      <div>
-        <h2 class="decorated-title marginBottom-5 fontSize-4">Tenemos la solución que buscas</h2>
-        <p class="marginBottom-3">Surte tu restaurante con productos de primera calidad a un precio exclusivo. Ponte
-          en contacto con nosotros.</p>
-
-        <form action="">
-          <div class="form-field marginBottom-2">
-            <label for="mail" class="form-field__label">Correo electrónico</label>
-            <input class="form-field__input" type="email" name="" id="mail" />
-          </div>
-
-          <div class="form-field marginBottom-2">
-            <label for="subject" class="form-field__label">Asunto</label>
-            <input class="form-field__input" type="text" name="" id="subject" />
-          </div>
-
-          <div class="form-field marginBottom-2">
-            <label for="message" class="form-field__label">Mensaje</label>
-            <textarea class="form-field__input" name="" id="message"></textarea>
-          </div>
-
-          <div class="textAlign-center">
-            <button class="btn btn-orange btn-padding-md">Enviar</button>
-          </div>
-        </form>
-      </div>
+      <?php include './assets/php/layout/form.php'; ?>
     </section>
   </div>
 </main>

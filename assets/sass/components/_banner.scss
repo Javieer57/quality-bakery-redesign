@@ -4,9 +4,9 @@
 	position: relative;
 	width: 100vw;
 	min-height: rem(200);
-	background-color: lightblue;
+	background-color: var(--darker-accent);
 	margin-bottom: rem(50);
-	box-shadow: 0px 17px 15px -10px #777777;
+	box-shadow: var(--default-shadow);
 	text-align: center;
 
 	&__title {

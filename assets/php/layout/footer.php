@@ -25,17 +25,19 @@
       <nav aria-label="redes sociales">
         <ul class="inline-list">
           <li>
-            <a class="marginRight-1" href="#" aria-label="ir a perfil de facebook de quality bakery">
+            <a class="marginRight-1" href="https://www.facebook.com/Qualitybakeryoficial/"
+              aria-label="ir a perfil de facebook de quality bakery">
               <i class="fa-fw fa-brands fa-facebook"></i>
             </a>
           </li>
           <li>
-            <a class="marginRight-1" href="#" aria-label="ir a perfil de instagram de quality bakery">
+            <a class="marginRight-1" href="https://www.instagram.com/qualitybakery_oficial/?hl=es"
+              aria-label="ir a perfil de instagram de quality bakery">
               <i class="fa-fw fa-brands fa-instagram"></i>
             </a>
           </li>
           <li>
-            <a href="#" aria-label="ir a perfil de tiktok de quality bakery">
+            <a href="https://www.tiktok.com/es/" aria-label="ir a perfil de tiktok de quality bakery">
               <i class="fa-fw fa-brands fa-tiktok"></i>
             </a>
           </li>
