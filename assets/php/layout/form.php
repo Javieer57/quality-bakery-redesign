@@ -3,7 +3,7 @@
   <p class="marginBottom-3">Surte tu restaurante con productos de primera calidad a un precio exclusivo. Ponte
     en contacto con nosotros.</p>
 
-  <form action="https://formsubmit.co/javieer.eufracio@gmail.com" id="contact-form" method="POST">
+  <form action="https://formsubmit.co/9da583234dc31482c757e0c3f2d0a12e" id="contact-form" method="POST">
     <div class="form-field marginBottom-2">
       <label for="mail" class="form-field__label">Correo electrónico</label>
       <input class="form-field__input" type="email" name="email" id="mail" />
