@@ -7,7 +7,7 @@
         <li class="header-desktop__nav-item"><a href="./pasteleria.php">Pastelería</a></li>
         <li class="header-desktop__nav-item"><a href="./pasteleria.php">Panadería</a></li>
         <li class="header-desktop__logo">
-          <a href="./" aria-label="inicio"><img src="./assets/img/quality-bakery-logo.png" alt="" title="" /></a>
+          <a href="./" aria-label="inicio"><img loading="lazy" src="./assets/img/quality-bakery-logo.png" alt="" title="" /></a>
         </li>
         <li class="header-desktop__nav-item"><a href="./contacto.php">Servicio a domicilio</a></li>
         <li class="header-desktop__nav-item"><a href="./contacto.php">Contacto</a></li>
@@ -17,7 +17,7 @@
 
   <!-- ::: Mobile ::: -->
   <div class="container header-mobile">
-    <a href="./" class="header-mobile__logo" aria-label="inicio"><img src="./assets/img/quality-bakery-logo.png" alt=""
+    <a href="./" class="header-mobile__logo" aria-label="inicio"><img loading="lazy" src="./assets/img/quality-bakery-logo.png" alt=""
         title="Inicio" /></a>
 
     <nav class="header-mobile__nav">

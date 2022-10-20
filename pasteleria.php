@@ -9,7 +9,7 @@
   <div class="container">
     <div class="asymmetric-card">
       <div class="asymmetric-card__thumb">
-        <img src="./assets/img/pastel-tradicional.png" alt="" />
+        <img loading="lazy" src="./assets/img/pastel-tradicional.png" alt="" />
       </div>
       <div class="asymmetric-card__content">
         <h2 class="asymmetric-card__title "><a href="./productos.php">Pastelería tradicional</a></h2>
@@ -27,7 +27,7 @@
 
     <div class="asymmetric-card">
       <div class="asymmetric-card__thumb">
-        <img src="./assets/img/pasteleria-fresas.png" alt="" />
+        <img loading="lazy" src="./assets/img/pasteleria-fresas.png" alt="" />
       </div>
       <div class="asymmetric-card__content">
         <h2 class="asymmetric-card__title "><a href="./productos.php">Pastelería gourmet</a></h2>
@@ -45,7 +45,7 @@
 
     <div class="asymmetric-card">
       <div class="asymmetric-card__thumb">
-        <img src="./assets/img/pastel-gourmet.png" alt="" />
+        <img loading="lazy" src="./assets/img/pastel-gourmet.png" alt="" />
       </div>
       <div class="asymmetric-card__content">
         <h2 class="asymmetric-card__title "><a href="./productos.php">Pasteles para eventos</a></h2>
@@ -62,7 +62,7 @@
 
     <div class="asymmetric-card">
       <div class="asymmetric-card__thumb">
-        <img src="./assets/img/pastel-navidad.png" alt="" />
+        <img loading="lazy" src="./assets/img/pastel-navidad.png" alt="" />
       </div>
       <div class="asymmetric-card__content">
         <h2 class="asymmetric-card__title "><a href="./productos.php">Fiesta decembrina</a></h2>

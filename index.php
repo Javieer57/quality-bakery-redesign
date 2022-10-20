@@ -7,21 +7,21 @@
     <div class="splide__track">
       <ul class="splide__list">
         <li class="splide__slide">
-          <img src="./assets/img/hero/hero-cake.png" alt="pastel de frutas con kiwi y fresa" />
+          <img loading="lazy" src="./assets/img/hero/hero-cake.png" alt="pastel de frutas con kiwi y fresa" />
           <div class="slider-hero__content">
             <h3 class="slider-hero__title">La mejor pastelería a unos pasos de ti</h3>
             <a href="./productos.php" class="slider-hero__btn">Nuestros productos</a>
           </div>
         </li>
         <li class="splide__slide">
-          <img src="./assets/img/hero/hero-cupcakes.png" alt="soportes con variedad de cupcakes" />
+          <img loading="lazy" src="./assets/img/hero/hero-cupcakes.png" alt="soportes con variedad de cupcakes" />
           <div class="slider-hero__content">
             <h3 class="slider-hero__title">Tenemos una sucursal cerca de ti</h3>
             <a href="./contacto.php" class="slider-hero__btn">Ver ubicaciones</a>
           </div>
         </li>
         <li class="splide__slide">
-          <img src="./assets/img/hero/hero-pay.png" alt="pays de frutos rojos" />
+          <img loading="lazy" src="./assets/img/hero/hero-pay.png" alt="pays de frutos rojos" />
           <div class="slider-hero__content">
             <h3 class="slider-hero__title">Surte tu negocio con nuestros productos</h3>
             <a href="./contacto.php" class="slider-hero__btn">Contacto</a>
@@ -44,7 +44,7 @@
         </p>
       </div>
 
-      <img src="./assets/img/collage.png" alt="collage de fotos de pasteles y cupcakes" />
+      <img loading="lazy" src="./assets/img/collage.png" alt="collage de fotos de pasteles y cupcakes" />
     </section>
 
     <!-- ::: Services ::: -->
@@ -53,7 +53,7 @@
 
       <ul class="grid grid-md-2 grid-lg-4 textAlign-center">
         <li class="feature">
-          <img class="feature__image" src="./assets/img/cake.png" alt="pastel dibujado a mano con cerezas encima" />
+          <img loading="lazy" class="feature__image" src="./assets/img/cake.png" alt="pastel dibujado a mano con cerezas encima" />
 
           <div class="feature__content">
             <div class="flex flex-centered" data-bakery="feature-title">
@@ -68,7 +68,7 @@
         </li>
 
         <li class="feature">
-          <img class="feature__image" src="./assets/img/croissant.png" alt="croissant dibujado a mano" />
+          <img loading="lazy" class="feature__image" src="./assets/img/croissant.png" alt="croissant dibujado a mano" />
 
           <div class="feature__content">
             <div class="flex flex-centered" data-bakery="feature-title">
@@ -83,7 +83,7 @@
         </li>
 
         <li class="feature">
-          <img class="feature__image" src="./assets/img/party.png" alt="cono de fiesta dibujado a mano" />
+          <img loading="lazy" class="feature__image" src="./assets/img/party.png" alt="cono de fiesta dibujado a mano" />
 
           <div class="feature__content">
             <div class="flex flex-centered" data-bakery="feature-title">
@@ -98,7 +98,7 @@
         </li>
 
         <li class="feature">
-          <img class="feature__image" src="./assets/img/delivery.png" alt="camión de entregas dibujado a mano" />
+          <img loading="lazy" class="feature__image" src="./assets/img/delivery.png" alt="camión de entregas dibujado a mano" />
 
           <div class="feature__content">
             <div class="flex flex-centered" data-bakery="feature-title">
@@ -120,28 +120,28 @@
     <div class="splide__track">
       <ul class="splide__list">
         <li class="splide__slide">
-          <img src="./assets/img/gallery/cupcake-de-chocolate.png" alt="cupcake con chocolate ferrero rocher" />
+          <img loading="lazy" src="./assets/img/gallery/cupcake-de-chocolate.png" alt="cupcake con chocolate ferrero rocher" />
         </li>
         <li class="splide__slide">
-          <img src="./assets/img/gallery/donas-glaseadas.png" alt="caja de cartón con donas glaseadas" />
+          <img loading="lazy" src="./assets/img/gallery/donas-glaseadas.png" alt="caja de cartón con donas glaseadas" />
         </li>
         <li class="splide__slide">
-          <img src="./assets/img/gallery/estante-con-pasteles.png" alt="exhibidor con pasteles de diferentes sabores" />
+          <img loading="lazy" src="./assets/img/gallery/estante-con-pasteles.png" alt="exhibidor con pasteles de diferentes sabores" />
         </li>
         <li class="splide__slide">
-          <img src="./assets/img/gallery/estante-de-panaderia.png" alt="estante con pan de diferentes tipos" />
+          <img loading="lazy" src="./assets/img/gallery/estante-de-panaderia.png" alt="estante con pan de diferentes tipos" />
         </li>
         <li class="splide__slide">
-          <img src="./assets/img/gallery/galletas-navideñas.png" alt="galletas navideñas" />
+          <img loading="lazy" src="./assets/img/gallery/galletas-navideñas.png" alt="galletas navideñas" />
         </li>
         <li class="splide__slide">
-          <img src="./assets/img/gallery/croissant.png" alt="croissants" />
+          <img loading="lazy" src="./assets/img/gallery/croissant.png" alt="croissants" />
         </li>
         <li class="splide__slide">
-          <img src="./assets/img/gallery/roles-de-canela.png" alt="roles de canela espolvoreados con azúcar glass" />
+          <img loading="lazy" src="./assets/img/gallery/roles-de-canela.png" alt="roles de canela espolvoreados con azúcar glass" />
         </li>
         <li class="splide__slide">
-          <img src="./assets/img/gallery/pastel-de-chocolate.png"
+          <img loading="lazy" src="./assets/img/gallery/pastel-de-chocolate.png"
             alt="pastel de chocolate con decoración de merengue" />
         </li>
       </ul>
@@ -165,7 +165,7 @@
         </blockquote>
 
         <figcaption>
-          <img class="testimonial__img" src="./assets/img/avatar.png" alt="" />
+          <img loading="lazy" class="testimonial__img" src="./assets/img/avatar.png" alt="" />
           <p class="font-secondary">Adriana Hernández</p>
           <p class="uppercase fontSize-1">Cliente</p>
         </figcaption>

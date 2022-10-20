@@ -20,7 +20,7 @@
     </div>
 
     <div class="footer__logo">
-      <img src="./assets/img/quality-bakery-logo.png" alt="logo de quality bakery" class="marginBottom-1" />
+      <img loading="lazy" src="./assets/img/quality-bakery-logo.png" alt="logo de quality bakery" class="marginBottom-1" />
 
       <nav aria-label="redes sociales">
         <ul class="inline-list">

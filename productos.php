@@ -23,7 +23,7 @@
 <template id="template-product-card">
   <li class="product-card" data-category="" data-template="container">
     <div class="product-card__img">
-      <img data-template="image" src=".." alt="">
+      <img loading="lazy" data-template="image" src=".." alt="">
     </div>
     <div class="product-card__bg">
     </div>
